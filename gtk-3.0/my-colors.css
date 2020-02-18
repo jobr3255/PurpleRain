@@ -1,0 +1,127 @@
+/* GTK NAMED COLORS ---------------- use responsibly! */
+/*
+widget text/foreground color */
+@define-color theme_fg_color #ed8cdd;
+/*
+text color for entries, views and content in general */
+@define-color theme_text_color white;
+/*
+widget base background color */
+@define-color theme_bg_color #242036;
+/*
+text widgets and the like base background color */
+@define-color theme_base_color #1f1c2e;
+/*
+base background color of selections */
+@define-color theme_selected_bg_color #15539e;
+/*
+text/foreground color of selections */
+@define-color theme_selected_fg_color #ffffff;
+/*
+base background color of insensitive widgets */
+@define-color insensitive_bg_color #221f33;
+/*
+text foreground color of insensitive widgets */
+@define-color insensitive_fg_color #915687;
+/*
+insensitive text widgets and the like base background color */
+@define-color insensitive_base_color #1f1c2e;
+/*
+widget text/foreground color on backdrop windows */
+@define-color theme_unfocused_fg_color #915687;
+/*
+text color for entries, views and content in general on backdrop windows */
+@define-color theme_unfocused_text_color white;
+/*
+widget base background color on backdrop windows */
+@define-color theme_unfocused_bg_color #242036;
+/*
+text widgets and the like base background color on backdrop windows */
+@define-color theme_unfocused_base_color #201d30;
+/*
+base background color of selections on backdrop windows */
+@define-color theme_unfocused_selected_bg_color #15539e;
+/*
+text/foreground color of selections on backdrop windows */
+@define-color theme_unfocused_selected_fg_color #ffffff;
+/*
+insensitive color on backdrop windows*/
+@define-color unfocused_insensitive_color #3d375c;
+/*
+widgets main borders color */
+@define-color borders #13111c;
+/*
+widgets main borders color on backdrop windows */
+@define-color unfocused_borders #161421;
+/*
+these are pretty self explicative */
+@define-color warning_color #f57900;
+@define-color error_color #cc0000;
+@define-color success_color #26ab62;
+/*
+these colors are exported for the window manager and shouldn't be used in applications,
+read if you used those and something break with a version upgrade you're on your own... */
+@define-color wm_title shade(#eeeeec, 1.8);
+@define-color wm_unfocused_title #915687;
+@define-color wm_highlight rgba(0, 0, 0, 0);
+@define-color wm_borders_edge rgba(238, 238, 236, 0.07);
+@define-color wm_bg_a shade(#242036, 1.2);
+@define-color wm_bg_b #242036;
+@define-color wm_shadow alpha(black, 0.35);
+@define-color wm_border alpha(black, 0.18);
+@define-color wm_button_hover_color_a shade(#242036, 1.3);
+@define-color wm_button_hover_color_b #242036;
+@define-color wm_button_active_color_a shade(#242036, 0.85);
+@define-color wm_button_active_color_b shade(#242036, 0.89);
+@define-color wm_button_active_color_c shade(#242036, 0.9);
+@define-color content_view_bg #1f1c2e;
+
+/* My defined colors */
+@define-color my_dark_purple_1 #352f4f;
+@define-color my_dark_purple_2 #201d30;
+@define-color my_dark_purple_3 #181524;
+@define-color my_dark_purple_4 #593553;
+@define-color my_dark_purple_5 #1b1829;
+@define-color my_dark_purple_6 #1d1a2b;
+@define-color my_dark_purple_7 #252238;
+@define-color my_dark_purple_8 #000000;
+@define-color my_dark_purple_9 #000000;
+@define-color my_dark_purple_10 #000000;
+@define-color my_dark_purple_11 #000000;
+
+@define-color my_dark_purple_popover rgba(26, 23, 38, 0.9);
+
+@define-color my_light_purple_1 #8f81d6;
+@define-color my_light_purple_2 #c775b9;
+@define-color my_light_purple_3 #7d4a74;
+@define-color my_light_purple_4 #8a5180;
+@define-color my_light_purple_5 #8f5485;
+@define-color my_light_purple_6 #6f63a6;
+@define-color my_light_purple_7 #000000;
+@define-color my_light_purple_8 #000000;
+@define-color my_light_purple_9 #000000;
+
+@define-color my_black #ffffff;
+@define-color my_black_2 #070707;
+
+@define-color my_dark_blue_1 #0f3b71;
+@define-color my_dark_blue_1_alpha rgba(15, 59, 113, 0.2);
+@define-color my_dark_blue_2 #030c17;
+
+@define-color my_light_blue_1 #000000;
+@define-color my_light_blue_1 #000000;
+
+@define-color my_dark_red_1 #1a0000;
+
+@define-color my_orange_1 #f57900;
+@define-color my_orange_2 #432100;
+
+@define-color my_green_1 #4e9a06;
+
+@define-color @black_transparent_07 rgba(0, 0, 0, 0.07);
+@define-color @black_transparent_50 rgba(0, 0, 0, 0.5);
+@define-color @black_transparent_70 rgba(0, 0, 0, 0.7);
+@define-color @black_transparent_83 rgba(0, 0, 0, 0.834353);
+
+@define-color @white_transparent_00 rgba(255, 255, 255, 0);
+@define-color @white_transparent_02 rgba(255, 255, 255, 0.02);
